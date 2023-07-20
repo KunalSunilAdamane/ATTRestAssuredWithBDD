@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uploadanddownloadfile.UploadFile">
+      <class name="spotifyapiautomation.CreatUpdatGet">
         <methods>
-          <include name="upload"/>
+          <include name="create"/>
+          <include name="get"/>
+          <include name="update"/>
         </methods>
-      </class> <!-- uploadanddownloadfile.UploadFile -->
+      </class> <!-- spotifyapiautomation.CreatUpdatGet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
